@@ -33,12 +33,13 @@ Navigate to the root directory of the project and install the required Python pa
 ### Set Environment Variables 
 
 
-You need to set the OPENAI_API_KEY and SECRET_KEY environment variables. You can do this by creating a .env file in the root directory of the project with the following contents:
+You need to set the OPENAI_API_KEY and SECRET_KEY environment variables. You can do this by creating a .env file named '.env'  in the root directory of the project with the following contents:
 
 ```plaintext
     OPENAI_API_KEY=your_openai_api_key_here
     SECRET_KEY=your_secret_key_here 
 ```
+Note: if you name the .env file anything but '.env', you will receive errors. Examples like 'keys.env' will not work!
 
 Replace your_openai_api_key_here and your_secret_key_here with your actual OpenAI API key and a secret key for Flask, respectively. Secret key can be anything you'd like.
 
